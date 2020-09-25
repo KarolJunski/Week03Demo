@@ -1,7 +1,7 @@
 <%-- 
     Document   : helloWorldForm
-    Created on : 4-Sep-2020, 10:04:59 AM
-    Author     : awarsyle
+    Created on : Sep 25, 2020, 1:39:38 PM
+    Author     : 821052
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,11 +13,10 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <form method="post" action="hello">
-            First name: <input type="text" name="firstname" value="${firstname}"><br>
-            Last name: <input type="text" name="lastname" value="${lastname}"><br>
+        <form method="post" action="hello"> 
+            First Name: <input type="text" name="firstname"> <br>
+            Last Name: <input type="text" name="lastname"> <br>
             <input type="submit" value="Submit">
         </form>
-            <p>${message}</p>
     </body>
 </html>

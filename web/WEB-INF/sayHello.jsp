@@ -1,7 +1,7 @@
 <%-- 
     Document   : sayHello
-    Created on : 4-Sep-2020, 10:20:13 AM
-    Author     : awarsyle
+    Created on : Sep 25, 2020, 1:59:26 PM
+    Author     : 821052
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hello World</title>
+        <title>Hello World!</title>
     </head>
     <body>
         <h1>Hello World!</h1>
-        <h2>Hello ${firstname} ${lastname}</h2>
+        <h2>Hello ${firstname} ${lastname}}</h2>
     </body>
 </html>
